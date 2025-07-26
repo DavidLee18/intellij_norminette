@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7590525-b64a-447c-9c09-d1063e8635a1" name="Changes" comment="revert JDK version in `qodana.yml`" />
+    <list default="true" id="a7590525-b64a-447c-9c09-d1063e8635a1" name="Changes" comment="forward workspace changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +138,7 @@
       <workItem from="1750132275977" duration="115000" />
       <workItem from="1750132411067" duration="154000" />
       <workItem from="1753512906358" duration="473000" />
-      <workItem from="1753513396375" duration="3575000" />
+      <workItem from="1753513396375" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="remove 'intellij' from plugin name">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753517430064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="forward workspace changes">
+      <option name="closed" value="true" />
+      <created>1753542401671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753542401672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +202,8 @@
     <MESSAGE value="update gradle" />
     <MESSAGE value="update project config" />
     <MESSAGE value="revert JDK version in `qodana.yml`" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert JDK version in `qodana.yml`" />
+    <MESSAGE value="forward workspace changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="forward workspace changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
