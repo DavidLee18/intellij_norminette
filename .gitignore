@@ -1,6 +1,7 @@
-.gradle
-.intellijPlatform
-.qodana
-build
+.gradle/
+.intellijPlatform/
+.qodana/
+build/
 .DS_Store
-.idea
+.idea/workspace.xml
+.idea/discord.xml
