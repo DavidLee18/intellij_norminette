@@ -8,6 +8,8 @@
 # Workflow is triggered manually.
 
 name: Run UI Tests
+permissions:
+  contents: read
 on:
   workflow_dispatch
 
