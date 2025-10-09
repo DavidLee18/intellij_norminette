@@ -176,6 +176,8 @@ jobs:
     name: Verify plugin
     needs: [ build ]
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
 
       # Free GitHub Actions Environment Disk Space
