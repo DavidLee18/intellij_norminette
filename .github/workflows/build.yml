@@ -114,7 +114,6 @@ jobs:
         with:
           distribution: jetbrains
           java-version: 17
-          cache: maven
 
       # Setup Gradle
       - name: Setup Gradle
@@ -169,7 +168,7 @@ jobs:
         with:
           distribution: jetbrains
           java-version: 17
-          cache: maven
+          cache: gradle
 
       # Run Qodana inspections
       - name: Qodana - Code Inspection
@@ -204,7 +203,6 @@ jobs:
         with:
           distribution: jetbrains
           java-version: 17
-          cache: maven
 
       # Setup Gradle
       - name: Setup Gradle
