@@ -50,8 +50,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: zulu
+          distribution: jetbrains
           java-version: 17
+          cache: maven
 
       # Setup Gradle
       - name: Setup Gradle
@@ -112,8 +113,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: zulu
+          distribution: jetbrains
           java-version: 17
+          cache: maven
 
       # Setup Gradle
       - name: Setup Gradle
@@ -166,13 +168,15 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: zulu
+          distribution: jetbrains
           java-version: 17
+          cache: maven
 
       # Run Qodana inspections
       - name: Qodana - Code Inspection
         uses: JetBrains/qodana-action@v2025.2
         with:
+          primary-cache-key: qodana-2025.2-${{ github.ref }}
           cache-default-branch-only: true
 
   # Run plugin structure verification along with IntelliJ Plugin Verifier
@@ -199,8 +203,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: zulu
+          distribution: jetbrains
           java-version: 17
+          cache: maven
 
       # Setup Gradle
       - name: Setup Gradle
